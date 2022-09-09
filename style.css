@@ -38,6 +38,14 @@
     justify-content: center;
 }
 
+.content-text {
+    display: flex;
+    width: 25%;
+    flex-direction: row;
+    text-align: justify;
+    align-self: center;
+}
+
 
 .column {
     flex: 0 1 50%;
