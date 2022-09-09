@@ -18,6 +18,19 @@
     align-items: center;
 }
 
+.navbar-title {
+    display: flex;
+    width: 50%;
+}
+
+.navbar-items {
+    display: flex;
+    width: 50%;
+    flex-direction: row;
+    flex: 0 1 auto;
+    justify-content: space-around;
+}
+
 .content {
     display: flex;
     flex-direction: row;
@@ -52,4 +65,16 @@ th, td {
 }
 .images > img:last-child {
     width: 315px;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.quote {
+    color: red;
+}
+
+.highlight {
+    background-color: orange;
 }
